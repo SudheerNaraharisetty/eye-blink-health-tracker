@@ -55,7 +55,79 @@ The default EAR threshold (0.2) may need fine-tuning for different users.
 
 ## 🔹 Installation & Setup
 
-1️⃣ **Clone the repository**  
-```bash
+### **📌 Installation & Setup Guide for README.md**  
+Here’s a complete **Installation & Setup** section for your GitHub **README.md** file.
+
+---
+
+## **📥 Installation & Setup**  
+
+### **1️⃣ Prerequisites**  
+Before running the **Eye Blink Health Tracker**, ensure you have:
+
+- ✅ **Windows OS** (Recommended)  
+  - Works best on **Windows** (Beep sound won’t work on Linux/macOS)  
+- ✅ **Python 3.7 or later**  
+  - Check if Python is installed:
+
+    ```sh
+    python --version
+    ```
+
+- ✅ **A Webcam** (Built-in or External)  
+  - The tool **requires a webcam** to detect eye blinks.  
+
+---
+
+### **2️⃣ Clone or Download the Project**  
+
+#### **(a) Clone using Git**  
+If you have Git installed, run:
+
+```sh
 git clone https://github.com/SudheerNaraharisetty/eye-blink-health-tracker.git
 cd eye-blink-health-tracker
+```
+
+#### **(b) Download Manually**  
+1. Go to [GitHub Repository](https://github.com/SudheerNaraharisetty/eye-blink-health-tracker)  
+2. Click **Code → Download ZIP**  
+3. Extract the ZIP and open the project folder.
+
+---
+
+### **3️⃣ Install Dependencies**  
+To install all required libraries, **run this command:**
+
+```sh
+pip install -r requirements.txt
+```
+
+📌 **If `requirements.txt` is missing, install manually:**
+```sh
+pip install opencv-python mediapipe pyttsx3
+```
+
+---
+
+### **4️⃣ Run the Eye Blink Tracker**  
+Once installed, run the script:
+
+```sh
+python blink_detectionp.py
+```
+
+---
+
+### **5️⃣ Expected Output**  
+- **Detects eye blinks in real-time using your webcam** 🎥  
+- **Alerts if you don’t blink for 15 seconds (beep sound)** 🔔  
+- **Tracks session duration & blinks per minute** ⏱  
+- **Gives voice summary every 15 minutes** 🔊  
+
+---
+
+## **🎯 You're All Set!**  
+Your **Eye Blink Health Tracker** is now ready to use! 🚀  
+
+Let me know if you need any changes before adding this to your **README.md**. 😊
