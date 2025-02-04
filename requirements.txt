@@ -1,0 +1,5 @@
+# install the following dependicies in your terminal
+
+opencv-python
+mediapipe
+pyttsx3
