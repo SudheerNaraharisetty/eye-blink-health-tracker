@@ -21,5 +21,5 @@ This Python project detects **eye blinks in real-time** using **OpenCV & MediaPi
 
 1️⃣ **Clone the repository**  
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/eye-blink-health-tracker.git
+git clone https://github.com/SudheerNaraharisetty/eye-blink-health-tracker.git
 cd eye-blink-health-tracker
